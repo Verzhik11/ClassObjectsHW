@@ -12,6 +12,14 @@ public class Main {
         lordOfRings.setYear(1960);
         System.out.println("Новый год издания " + harryPotter.getName() + " - " + harryPotter.getYear() +" и " + lordOfRings.getName() +
                 " - " + lordOfRings.getYear());
-
+        System.out.println(authorHarry);
+        System.out.println(authorLOR);
+        System.out.println(harryPotter);
+        System.out.println(lordOfRings);
+        System.out.println(lordOfRings.equals(harryPotter));
+        System.out.println(authorHarry.equals(authorLOR));
+        System.out.println(authorHarry.hashCode() + " и " + authorLOR.hashCode());
+        System.out.println(harryPotter.hashCode() + " и " + lordOfRings.hashCode());
     }
+
 }
